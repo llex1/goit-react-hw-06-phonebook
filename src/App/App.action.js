@@ -1,10 +1,17 @@
-const localStorage = (contacts) => {
-  return {
-    type: "ADD",
-    payload: {
-      contacts: contacts
-    }
-  }
-}
+import { createAction } from "@reduxjs/toolkit";
 
-export default {localStorage}
+// const localStorage = (contacts) => {
+//   return {
+//     type: "ADD",
+//     payload: {
+//       contacts: contacts
+//     }
+//   }
+// }
+const localStorage = createAction("ADD", (contacts) => ({
+  payload: {
+    contacts,
+  },
+}));
+
+export default { localStorage };
