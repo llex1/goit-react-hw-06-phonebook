@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
@@ -27,9 +28,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/llex1/goit-react-hw-05-phonebook"
+    "url": "https://github.com/llex1/goit-react-hw-06-phonebook"
   },
-  "homepage": "https://llex1.github.io/goit-react-hw-05-phonebook",
+  "homepage": "https://llex1.github.io/goit-react-hw-06-phonebook",
   "eslintConfig": {
     "extends": [
       "react-app",
